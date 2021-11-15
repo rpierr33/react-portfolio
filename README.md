@@ -1,7 +1,9 @@
 # React Portfolio
 
 ## Description
-an API for a social network that uses mongodb that can handle large amounts of unstructured data. using this app, user information is returned based on input, and subdocument arrays are used to associate replies to a post/thought, as well as the creation and relation of thoughts and reactions via object Ids.
+This portfolio was bootstrapped with Create React App. Using CSS for styling and Heroku for deployment. This portfolio hosts information about my projects and applications.
+
+
 
 ## Table of Contents
 - [Description](#description)
@@ -10,7 +12,7 @@ an API for a social network that uses mongodb that can handle large amounts of u
 - [Technology Used](#technology-used)
 
 ## Installation
-To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command ```npm i```  
+To install this application, ```npm i```  
 
 
 ## Usage
@@ -23,8 +25,8 @@ Run the following commands in the command-line in the root of the folder
 •	CSS
 •	Javascript
 •	Node.js
-•	Express.js
-•	Mongoose
-•	IndexedDB
+•	React.js
+•	Heroku
+
 
 
