@@ -1,6 +1,6 @@
 import "./about.css";
 import anime from "../../img/anime.png";
-import ralph2 from "../../img/ralph-leans-against-window.jpg";
+import ralph2 from "../../img/ralph-sits-on-ramp.jpg";
 
 const About = () => {
     return (
