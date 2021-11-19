@@ -3,12 +3,13 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
+import Resume from "./components/resume/Resume";
+
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import React from "react";
 import {
   BrowserRouter,
-  Switch,
   Route,
   Routes,
   Link
@@ -42,11 +43,13 @@ const App = () => {
                 Nav!
         </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                {/* <Link className="dropdown-item" to="/contact">Contact</Link> */}
                 <Link class="dropdown-item" to="/"> Intro </Link>
                 <Link class="dropdown-item" to="/about"> About </Link>
                 <Link class="dropdown-item" to="/ProductList"> Product List </Link>
                 <Link class="dropdown-item" to="/contact"> Contact </Link>
+                <Link class="dropdown-item" to="/resume"> Resume </Link>
+                <Link class="dropdown-item" to="/toggle"> Toggle </Link>
+
               </div>
             </li>
 
@@ -60,6 +63,9 @@ const App = () => {
           <Route path="/About" element={<About />} />
           <Route path="/ProductList" element={<ProductList />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/toggle" element={<Toggle />} />
+
 
         </Routes>
       </BrowserRouter>
