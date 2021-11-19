@@ -16,17 +16,17 @@ export const products = [
     },
     {
       id: 4,
+      img: "./img/boxit.png",
+      link: "https://box-it-app.netlify.app/",
+    },
+    {
+      id: 5,
       img: "./img/ralph-resume.png",
       link: "https://www.linkedin.com/in/ralph-pierre-01147863/",
     },
-    // {
-    //   id: 5,
-    //   img: "",
-    //   link: "http://lama.dev",
-    // },
-    // {
-    //   id: 6,
-    //   img: "",
-    //   link: "http://lama.dev",
-    // },
+    {
+      id: 6,
+      img: "",
+      link: "",
+    },
   ];
