@@ -22,7 +22,7 @@ export const products = [
     {
       id: 5,
       img: "./img/ralph-resume.png",
-      link: "https://www.linkedin.com/in/ralph-pierre-01147863/",
+      link: "https://www.icloud.com/pages/0Amm2K0YpfPIQbAn3IST-5E0A#Resume_",
     },
     {
       id: 6,
