@@ -10,11 +10,6 @@ import React, { useState } from 'react';
 // import pic from "../../img/ralph-resume.png";
 
 
-
-import weird from "../../pdf/tester.pdf";
-
-
-
 const Resume = () => {
 
   const [state]=useState(true);

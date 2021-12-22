@@ -18,7 +18,7 @@
   }
   
   .a-card.bg {
-    position: absolute;
+    position: relative;
     top: 50px;
     left: 50px;
     background-color: #333;

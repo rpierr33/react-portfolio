@@ -12,6 +12,7 @@ const About = () => {
             src={ralph2} alt=""
             className="a-img"
           />
+          
         </div>
       </div>
       <div className="a-right">
