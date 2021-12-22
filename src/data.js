@@ -1,4 +1,4 @@
-export const products = [
+export const projects = [
     {
       id: 1,
       img: "./img/myadventureapp.png",
@@ -11,18 +11,21 @@ export const products = [
     },
     {
       id: 3,
-      img: "./img/runbuddypic.jpeg",
-      link: "https://rpierr33.github.io/run-buddy/",
-    },
-    {
-      id: 4,
       img: "./img/boxit.png",
       link: "https://box-it-app.netlify.app/",
+      
     },
+
+    {
+      id: 4,
+      img: "",
+      link: "",
+    },
+
     {
       id: 5,
-      img: "./img/ralph-resume.png",
-      link: "https://www.icloud.com/pages/0Amm2K0YpfPIQbAn3IST-5E0A#Resume_",
+      img: "",
+      link: "",
     },
     {
       id: 6,

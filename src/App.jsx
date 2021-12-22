@@ -2,7 +2,7 @@ import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
+import ProjectList from "./components/projectList/ProjectList";
 import Resume from "./components/resume/Resume";
 
 import Toggle from "./components/toggle/Toggle";
@@ -45,7 +45,7 @@ const App = () => {
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <Link className="dropdown-item" to="/"> Intro </Link>
                 <Link className="dropdown-item" to="/about"> About </Link>
-                <Link className="dropdown-item" to="/ProductList"> Product List </Link>
+                <Link className="dropdown-item" to="/projectList"> Projects </Link>
                 <Link className="dropdown-item" to="/contact"> Contact </Link>
                 <Link className="dropdown-item" to="/resume"> Resume </Link>
                 <Link className="dropdown-item" to="/toggle"> Toggle </Link>
@@ -61,7 +61,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/About" element={<About />} />
-          <Route path="/ProductList" element={<ProductList />} />
+          <Route path="/ProjectList" element={<ProjectList />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/toggle" element={<Toggle />} />
