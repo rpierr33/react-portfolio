@@ -36,7 +36,7 @@ function App() {
 							<a href="https://www.linkedin.com/in/ralph-pierre-01147863/">linkedin</a> <i class="fa fa-linkedin"></i>
 						</div>
 						<div>
-							<a href="portfolio deployed link will go here">portfolio</a> <i class="fa fa-globe"></i>
+							<a href="https://61de591372f731add810c189--confident-benz-8f7d18.netlify.app/projectList">portfolio</a> <i class="fa fa-globe"></i>
 						</div>
 					</div>
 				</div>
