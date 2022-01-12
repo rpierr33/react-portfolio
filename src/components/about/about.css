@@ -18,10 +18,10 @@
   }
   
   .a-card.bg {
-    position: relative;
+    position: absolute;
     top: 50px;
     left: 50px;
-    background-color: #333;
+    background-color: #a3a3c2;
   }
   
   .a-card {
@@ -31,6 +31,8 @@
     position: relative;
     overflow: hidden;
   }
+  
+
   
   .a-img {
     width: 100%;
@@ -46,33 +48,20 @@
   
   .a-title {
     font-weight: 400;
-    color: rgb(86, 214, 86);
+    color: rgb(163, 163, 194);
+    padding-left: 20px;
+  
   }
   
   .a-sub {
-    margin: 20px 0px;
+    margin: 20px 20px;
   }
   
   .a-desc{
       font-weight: 300;
   }
   
-  .a-award{
-      margin-top: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-  
-  .a-award-texts{
-      width: 70%;
-  }
-  
-  .a-award-title{
-      font-weight: bold;
-      color: #555;
-      margin-bottom: 10px;
-  }
+
   
   @media screen and (max-width:480px) {
       .a{

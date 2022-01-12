@@ -6,7 +6,8 @@
   .c-bg {
     width: 20px;
     height: 100%;
-    background-color: #59b256;
+    background-color:rgb(86, 120, 214);
+    ;
     position: absolute;
   }
   
@@ -30,6 +31,7 @@
   .c-title {
     font-size: 60px;
     width: 80%;
+    color: rgb(86, 120, 214);
   }
   
   .c-info-item {
@@ -74,7 +76,8 @@
   button {
     border: none;
     padding: 15px;
-    background-color: #59b256;
+    background-color: rgb(86, 120, 214);
+    ;
     color: white;
     font-weight: 500;
     cursor: pointer;

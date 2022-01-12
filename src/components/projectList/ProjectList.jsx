@@ -8,7 +8,7 @@ const ProjectList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">My Developer Trek Thus Far!</h1>
         <p className="pl-desc">
-          Please browse through my resume, as well as a list of previous projects, from basic html & css to full stack with sequelize, nodejs, mongodb, graphQL & a whole lot more to come.
+          Please browse through my list of previous projects, from basic html & css to full stack with sequelize, nodejs, mongodb, & a whole lot more to come.
         </p>
       </div>
       <div className="pl-list">

@@ -1,11 +1,10 @@
-import { useContext } from "react";
+ import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import ProjectList from "./components/projectList/ProjectList";
 import Resume from "./components/resume/Resume";
 
-import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import React from "react";
 import {
@@ -30,7 +29,7 @@ const App = () => {
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
           <span className="navbar-toggler-icon"></span>
         </button>
 
@@ -39,17 +38,16 @@ const App = () => {
             
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{color: "rgb(86, 120, 214)"}}>
                 Menu
         </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/"> Intro </Link>
-                <Link className="dropdown-item" to="/about"> About </Link>
-                <Link className="dropdown-item" to="/projectList"> Projects </Link>
-                <Link className="dropdown-item" to="/contact"> Contact </Link>
-                <Link className="dropdown-item" to="/resume"> Resume </Link>
-                <Link className="dropdown-item" to="/toggle"> Toggle </Link>
-
+                <Link className="dropdown-item" to="/" style={{color: "rgb(86, 120, 214)"}}> Intro </Link>
+                <Link className="dropdown-item" to="/about" style={{color: "rgb(86, 120, 214)"}}> About </Link>
+                <Link className="dropdown-item" to="/projectList" style={{color: "rgb(86, 120, 214)"}}> Projects </Link>
+                <Link className="dropdown-item" to="/contact" style={{color: "rgb(86, 120, 214)"}}> Contact </Link>
+                <Link className="dropdown-item" to="/resume" style={{color: "rgb(86, 120, 214)"}}> Resume </Link>
+              
               </div>
             </li>
 
@@ -64,7 +62,6 @@ const App = () => {
           <Route path="/ProjectList" element={<ProjectList />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/toggle" element={<Toggle />} />
 
 
         </Routes>

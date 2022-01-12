@@ -14,22 +14,22 @@ export const projects = [
       img: "./img/boxit.png",
       link: "https://box-it-app.netlify.app/",
       
-    },
+    }
 
-    {
-      id: 4,
-      img: "",
-      link: "",
-    },
+    // {
+    //   id: 4,
+    //   img: "",
+    //   link: "",
+    // },
 
-    {
-      id: 5,
-      img: "",
-      link: "",
-    },
-    {
-      id: 6,
-      img: "",
-      link: "",
-    },
+    // {
+    //   id: 5,
+    //   img: "",
+    //   link: "",
+    // },
+    // {
+    //   id: 6,
+    //   img: "",
+    //   link: "",
+    // },
   ];
