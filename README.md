@@ -8,7 +8,6 @@ This portfolio was bootstrapped with Create React App. Using CSS for styling and
 ![Alt text](https://github.com/rpierr33/react-portfolio/blob/main/public/img/screenshot.png "react portfolio")
 
 ## Table of Contents
-## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
