@@ -7,7 +7,7 @@ export const projects = [
     {
       id: 2,
       img: "./img/read-my-lips-pic.jpeg",
-      link: "https://flying-dink.github.io/Read-My-Lips/",
+      link: "https://rpierr33.github.io/Read-my-lips/",
     },
     {
       id: 3,
