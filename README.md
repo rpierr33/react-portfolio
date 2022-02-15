@@ -2,12 +2,11 @@
 # React Portfolio
 
 ## Description
-This portfolio was bootstrapped with Create React App. Using CSS for styling and Heroku for deployment. This portfolio hosts information about my projects and applications.
+This portfolio was bootstrapped with Create React App. Using CSS for styling and Netlify for deployment. This portfolio hosts information about my projects and applications.
 
 
-![Alt text]( "react portfolio")
+![Alt text](https://github.com/rpierr33/react-portfolio/blob/main/public/img/screenshot.png "react portfolio")
 
-## Table of Contents
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
