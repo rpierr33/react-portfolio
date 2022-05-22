@@ -22,7 +22,7 @@ const About = () => {
         learn! I have a working knowledge of JavaScript, JQuery, Node.js, Express.js, 
         Sequelize.js,  OOP, React.js, CSS, MySql, PostgreSql, MongoDB, Mongoose, GraphQL, and Redux.<br></br>
         <br></br>
-        I currently work as an instructor/tutor/grader for a full stack web development bootcamp at 2U. <br></br>
+        I currently work as an instructor/tutor/grader for a full stack web development bootcamp at the University of Miami, through 2U. <br></br>
         <br></br>
         My FreeLance work focuses primarily on open source projects and e-commerce websites. 
         
