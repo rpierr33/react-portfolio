@@ -1,7 +1,7 @@
 import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
-import Address from "../../img/address.png";
+import Address from "../..//img/address.png";
 import {  useRef, useState } from "react";
 import emailjs from "emailjs-com";
 

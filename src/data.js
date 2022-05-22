@@ -6,8 +6,8 @@ export const projects = [
     },
     {
       id: 2,
-      img: "./img/read-my-lips-pic.jpeg",
-      link: "https://rpierr33.github.io/Read-my-lips/",
+      img: "./GPT-3.png",
+      link: "https://rpierr33.github.io/Fun-with-GPT-3/"
     },
     {
       id: 3,
