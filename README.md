@@ -5,7 +5,7 @@
 This portfolio was bootstrapped with Create React App. Using CSS for styling and Netlify for deployment. This portfolio hosts information about my projects and applications.
 
 
-![Alt text](https://github.com/rpierr33/react-portfolio/blob/main/public/img/screenshot.png "react portfolio")
+<img width="1121" alt="portfoliopic" src="[https://github.com/rpierr33/openai-app/blob/main/img/Screen%20Shot%202022-05-21%20at%205.41.21%20PM.png](https://github.com/rpierr33/react-portfolio/blob/main/src/images/portfolio.png)">
 
 ## Table of Contents
 - [Description](#description)
