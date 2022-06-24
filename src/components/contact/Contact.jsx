@@ -2,80 +2,46 @@ import "./contact.css";
 import Phone from "../../images/phone.png";
 import Email from "../../images/email.png";
 import Address from "../../images/address.png";
-import {  useRef, useState } from "react";
-import emailjs from "emailjs-com";
-
 
 const Contact = () => {
-    const formRef = useRef();
-    const [done, setDone] = useState(false)
-    // const theme = useContext(ThemeContext);
-    // const darkMode = theme.state.darkMode;
-  
-    const handleSubmit = (e) => {
-      console.log("this function works");
-        e.preventDefault();
-        emailjs
-        .sendForm(
-            "service_qf13yam",
-        "template_3v5nih4",
-        formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true)
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-        
-    };
-
-    return (
-      <div className="c">
-        <div className="c-bg"></div>
-        <div className="c-wrapper">
-          <div className="c-left">
-            <h1 className="c-title">Let's talk about your next project</h1>
-            <div className="c-info">
-              <div className="c-info-item">
-                <img src={Phone} alt="" className="c-icon" />
-						<div>
-							<i class="fa fa-phone"></i> <a href="tel:754-242-7030">(754) 242 - 7030</a>
-						</div>
-              </div>
-              <div className="c-info-item">
-                <img className="c-icon" src={Email} alt="" />
-                <div>
-							 <a href="mailto:mrralphpierre@gmail.com">mrralphpierre@gmail.com</a>
-						</div>
-              </div>
-              <div className="c-info-item">
-                <img className="c-icon" src={Address} alt="" />
-                4900 NE 1st Ter Oakland Park, Florida 33334
+  return (
+    <div className="c">
+      <div className="c-bg"></div>
+      <div className="c-wrapper">
+        <div className="c-left">
+          <h1 className="c-title">Let's talk about your next project</h1>
+          <div className="c-info">
+            <div className="c-info-item">
+              <img src={Phone} alt="" className="c-icon" />
+              <div>
+                <i class="fa fa-phone"></i>{" "}
+                <a href="tel:754-242-7030">(754) 242 - 7030</a>
               </div>
             </div>
-          </div>
-          <div className="c-right">
-            <p className="c-desc">
-              <b>What do you have in mind?</b> Never hesitate to reach out. Always available for
-              freelancing if the right project comes along. 
-            </p>
-            <form ref={formRef} onSubmit={handleSubmit}>
-              {/* <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-              <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-              <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-              <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
-              <button>Submit</button> */}
-              {done && "Thank you..."}
-            </form>
+            <div className="c-info-item">
+              <img className="c-icon" src={Email} alt="" />
+              <div>
+                <a href="mailto:mrralphpierre@gmail.com">
+                  mrralphpierre@gmail.com
+                </a>
+              </div>
+            </div>
+            <div className="c-info-item">
+              <img className="c-icon" src={Address} alt="" />
+              Oakland Park, Florida
+            </div>
           </div>
         </div>
+        <div className="c-right">
+          <p className="c-desc">
+            <b>What do you have in mind?</b> Never hesitate to reach out. Always
+            available for freelancing if the right project comes along.
+          </p>
+        </div>
       </div>
-    );
-  };
-  
-  export default Contact;
+    </div>
+  );
+};
+
+export default Contact;
+

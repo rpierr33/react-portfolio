@@ -1,0 +1,29 @@
+[
+    {
+        "title": "box-it-app",
+        "imagePath": "https://drive.google.com/uc?id=1Am_Jv5lH_MywPJq6S3a497L92oV_y4x9",
+        "description": "Interactive MERN stack Box packing app, where users can save and track box or luggage content during a move or travel",
+        "technologies": "HTML, Bootstrap, JS, node, mongodb, mongoose & deployed with netlify, features include user authentication, user collaboration, and crud functionality",
+        "liveUrl": "https://box-it-app.netlify.app",
+        "gitHub": "https://github.com/AbhiBiju/BoxIt-Front-End"
+    },
+    {
+        "title": "fun-with-gpt-3",
+        "imagePath": "https://drive.google.com/uc?id=16LWTHcMVFMdI9oyU3oP2vB5qf8GqI3tb",
+        "description": "Interactive front-end project, which uses a third-party API, OpenAI api, to return content based on user input",
+        "technologies": "React, Bootstrap, JS, node, deployed with GitHub Pages, features include user input, api call.",
+        "liveUrl": "https://rpierr33.github.io/Fun-with-GPT-3",
+        "gitHub": "https://github.com/rpierr33/Fun-with-GPT-3"
+    },
+    {
+        "title": "my-adventure-app",
+        "imagePath": "https://drive.google.com/uc?id=1gZUKKZRyyzhhT8dr6tc5uEqNNaVY3tqX",
+        "description": "Interactive full-stack crud app, built as a social media platform",
+        "technologies": "HTML, Bootstrap, JS, handlebars, node, mysql, sequelize & deployed with Heroku, features include user authentication, user collaboration, and crud functionality",
+        "liveUrl": "https://myadventureteam.herokuapp.com",
+        "gitHub": "https://github.com/NukaGrizz/MyAdventure"
+    }
+]
+
+
+

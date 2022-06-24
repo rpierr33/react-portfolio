@@ -1,5 +1,12 @@
+* {
+	color: black;
+}
+
 body, html {
 	background-color: transparent;
+	
+	
+	
 
     
 }
@@ -63,6 +70,7 @@ a {
 }
 
 .item-title {
+	color: black;
 	width: 80%;
   
     
@@ -81,3 +89,15 @@ a {
 .fa-code{
     font-size: x-large;
 }
+
+
+@media screen and (max-width: 480px) {
+    .p {
+      width: 40%;
+      height: 20vh;
+    }
+
+	.title-name {
+		width: 10px;
+	}
+  }

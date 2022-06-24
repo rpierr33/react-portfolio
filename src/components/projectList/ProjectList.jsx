@@ -1,24 +1,42 @@
-import "./projectList.css";
-import Project from "../project/Project";
-import { projects } from "../../data";
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import projects from  '../../utils/projects.json'
+import { Carousel } from 'react-responsive-carousel';
+import UseAnimations from "react-useanimations";
+import github  from 'react-useanimations/lib/github'
+import explore  from 'react-useanimations/lib/explore'
 
-const ProjectList = () => {
+function Project() {
   return (
-    <div className="pl">
-      <div className="pl-texts">
-        <h1 className="pl-title">My Developer Trek Thus Far!</h1>
-        <p className="pl-desc">
-          Please browse through my list of previous projects, from basic html & css to full stack with sequelize, nodejs, mongodb, & a whole lot more to come.
-        </p>
-      </div>
-      <div className="pl-list">
-        {projects.map((item) => (
-          <Project key={item.id} img={item.img} link={item.link} />
-          
-        ))}
-      </div>
-    </div>
-  );
-};
+    <Carousel autoPlay>
+      {projects.map( (project) => (
+        <div className="project" key={project.title}>
+          <img alt={project.title} src={project.imagePath}/>
+          <div className="legend">
+            <h5>{project.title}</h5>
+            <h6>{project.description}</h6>
+            <h6>{project.technologies}</h6>
+            <div className="align-center">
+              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                <UseAnimations className="icons"
+                animation={explore}
+                size={36}
+                pathCss="stroke: #EFF0F0; stroke-width: 5%;"
+                /> <span>Demo</span>
+              </a>
+              <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
+                <UseAnimations 
+                animation={github}
+                size={36}
+                pathCss="stroke: #EFF0F0; stroke-width: 5%;"
+                /> <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </Carousel>
+  )
+}
 
-export default ProjectList;
+export default Project;

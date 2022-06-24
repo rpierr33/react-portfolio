@@ -1,17 +1,14 @@
-import "./project.css";
+import React from 'react';
+import ProjectList from '../projectList'
 
 
-const Project = ({img,link}) => {
+const Project = ({}) => {
   return (
-    <div className="p">
-      <div className="p-browser">
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-      </div>
-      <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="p-img" />
-      </a>
+    <div className="flex-row px-1">
+        <h2> My Latest Projects! </h2>
+        <div >
+          <ProjectList></ProjectList>
+        </div>  
     </div>
   );
 };

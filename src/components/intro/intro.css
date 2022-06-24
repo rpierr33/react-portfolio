@@ -5,11 +5,12 @@
 }
 
 .i-left{
+    background-color: #ffffff!important;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1000px;
+
 }
 
 .i-right{
@@ -25,18 +26,7 @@
     /* justify-content: space-between; */
 }
 
-.i-intro{
-    font-size: 30px;
-    font-weight: 300;
-    position: relative;
-    bottom: 50px;
-}
 
-.i-name{
-    font-size: 40px;
-    position: relative;
-    bottom: 50px;
-}
 
 .i-title{
     height: 50px;
@@ -99,4 +89,9 @@
     position: relative;
     bottom: 20px;
     right: 30px;
+    color: white;
+}
+
+.a {
+color: white;
 }
